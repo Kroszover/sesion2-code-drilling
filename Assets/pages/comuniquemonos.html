@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comuniquemonos</title>
+    <link rel="shortcut icon" href="/Assets/img/n.png">
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384- UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <form action="index.html">
+        <h1>Comuniquemonos</h1>
+        <br>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" value="Nombre Completo" pattern=" 
+        [A-Za-z]
+        "><br><br>
+        <label for="mail">Correo:</label><br>
+        <input type="text" id="mail" name="mail" value="Ejemplo@tucorreo.com" pattern="
+        [a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
+        <label for="telefono">Telefono:</label><br>
+        <input type="text" id="telefono" name="telefono" value=988722344 pattern="
+        [0-9]{9}"><br><br>
+        <label for="motivo">Motivo:</label><br>
+        <select name="motivo" id="motivo">
+            <option value="felicitaciones">Felicitaciones</option>
+            <option value="reclamos">Reclamos</option>
+            <option value="consultas">Consultas</option>
+            <option value="sugerencias">Sugerencias</option>
+        </select><br><br>
+
+
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10">Escribe tu mensaje</textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

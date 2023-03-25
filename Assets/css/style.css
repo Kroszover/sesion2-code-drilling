@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+
+#footerimg{
+    width: 5%;
+    height: 5%;
+}
+
+#Productos{
+    width: 50%;
+}

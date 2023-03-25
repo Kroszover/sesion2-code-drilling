@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="shortcut icon" href="/Assets/img/n.png">
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384- UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <form action="index.html">
+
+        <h1>Reserva</h1>
+
+        <br>
+
+        <label for="fname">Nombre:</label><br>
+
+        <input type="text" id="fname" name="fname" value="Nombre Completo" pattern="
+        [A-Za-z]{1,15}
+        "><br><br>
+
+        <label for="mail">Correo:</label><br>
+
+        <input type="text" id="mail" name="mail" value="mail" pattern="
+        [a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br><br>
+
+        <label for="telefono">Telefono:</label><br>
+
+        <input type="text" id="telefono" name="telefono" value=988722344 pattern="
+        [0-9]{9}"><br><br>
+
+        <label for="fecha">Fecha:</label><br>
+        <input type="date" id="fecha" name="fecha" value="2021-01-01" pattern="
+        [0-9]{4}-[0-9]{2}-[0-9]{2}"><br><br>
+
+        <label for="hora">Hora:</label><br>
+        <input type="time" id="hora" name="hora" value="12:00" pattern="
+        [0-9]{2}:[0-9]{2}
+        "><br><br>
+
+        <label for="personas">Cantidad de Asistentes:</label><br>
+        <input type="number" id="personas" name="personas" value="1" pattern="
+        [0-9]{1,2}
+        "><br><br>
+
+        <input type="submit" value="Reservar">
+        <br>
+        <br>
+
+        <label for="derechos">Todos los derechos reservados©</label><br>
+
+    </form>
+
+</body>
+
+</html>
